@@ -12,7 +12,7 @@ Bienvenido. Esta es la prueba técnica para validar mis conocimientos y fortalez
 
 ## INSTRUCCIONES
 * Se usa un  Factory para insertar registros en la tabla, ejecutándolo desde el Seeder
-* Se utiliza Validator para validaro los input de la solicitud
+* Se utiliza Validator para validar los input de la solicitud
 
 ## Instalación:
 1.Crear una base de datos mysql
@@ -27,7 +27,7 @@ Bienvenido. Esta es la prueba técnica para validar mis conocimientos y fortalez
 
 6.Generar la API key ejecutando:  php artisan key:generate 
 
-7.En el archivo .env colocar el nombre de la base de datos
+7.En el archivo .env colocar el nombre de la base de datos que se va a utilizar
 
 8.Para ejecutar las migraciones: php artisan migrate --seed
 
