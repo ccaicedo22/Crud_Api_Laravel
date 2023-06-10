@@ -1,6 +1,6 @@
 
 # Blue Web Factory - API 
-## Carlos Andres Balaguera Caicedo - FORTESZA
+## Carlos Andres Balaguera Caicedo - Blue Web Factory
 
 ## Prueba realizada del 09/06/2023 al 10/06/2023
 Bienvenido. Esta es la prueba técnica para validar mis conocimientos y fortalezas en el mundo del Backend utilizando laravel, demostrando así mi capacidad de arquitectura de codigo, patrones de diseño, clean code,  REST y demás para el mundo de Blue Web Factory.
