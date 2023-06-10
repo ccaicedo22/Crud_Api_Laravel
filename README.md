@@ -1,6 +1,6 @@
 
 # Blue Web Factory - API 
-## Carlos Andres Balaguera Caicedo - Blue Web Factory
+## Carlos Andres Balaguera Caicedo - API- LARAVEL
 
 ## Prueba realizada del 09/06/2023 al 10/06/2023
 Bienvenido. Esta es la prueba técnica para validar mis conocimientos y fortalezas en el mundo del Backend utilizando laravel, demostrando así mi capacidad de arquitectura de codigo, patrones de diseño, clean code,  REST y demás para el mundo de Blue Web Factory.
@@ -8,13 +8,32 @@ Bienvenido. Esta es la prueba técnica para validar mis conocimientos y fortalez
 # Contenido
 * Instrucciones para el correcto funcionamiento
 * Herramientas de desarrollo utilizadas.
-* Un poco sobre mí 😀
+* ¿DESEAS PROBAR LA API EN POSTMAN?
 
 ## INSTRUCCIONES
+* Se usa un  Factory para insertar registros en la tabla, ejecutándolo desde el Seeder
+* Se utiliza Validator para validaro los input de la solicitud
+
+## Instalación:
+1.Crear una base de datos mysql
+
+2.Clonar o descargar el proyecto en el directorio de tu servidor web
+
+3.Acceder mediante terminal a la carpeta del proyecto
+
+4.Ejecutar:  Composer install
+
+5.Crear el archivo .env con los comandos:  cp .env.example .env
+
+6.Generar la API key ejecutando:  php artisan key:generate 
+
+7.En el archivo .env colocar el nombre de la base de datos
+
+8.Para ejecutar las migraciones: php artisan migrate --seed
 
 ## HERRAMIENTAS DE DESARROLLO UTILIZADAS
-* Laravel Framework v - 9.51.0 
-* PHP 8.0.25 
+* Laravel Framework v - 9
+* PHP 8.2.4 
 * visual studio code
 * postman
 * xampp
@@ -22,9 +41,14 @@ Bienvenido. Esta es la prueba técnica para validar mis conocimientos y fortalez
 * Git
 * GitHub
 
-## ¿DESEAS PROBAR LA API EN POSTMAN?
-Adjunto la coleccion de postman con la que realice pruebas que se encuentra en un drive para que puedan descargarla e importarla. 
-https://drive.google.com/file/d/1MTDM0UCC2zgaxDUiJGybnCZJx6uXkKUA/view?usp=share_link
+## Columnas de la tabla:
+* id
+* name
+* description
+* price
+* stock
 
-## SOBRE MÍ
-Espero con ansias ser parte de Blue Web Factory, aportar mis conocimientos y aptitudes, como también tener la posibilidad de ser un pilar en el engranaje encargado del crecimiento de la empresa. Quiero fortalecerme como profesional y siento que Blue Web Factory es la oportunidad que necesito. Muchas gracias 😀
+## ¿DESEAS PROBAR LA API EN POSTMAN?
+Adjunto la coleccion de postman con la que realice pruebas que se encuentra en un drive para que puedan descargarla e importarla en postman. 
+https://drive.google.com/file/d/1erkOrvA7XQqOTAEt_2SsxSZvx9ZDKG0j/view?usp=sharing 
+
